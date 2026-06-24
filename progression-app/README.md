@@ -10,24 +10,6 @@ A full-body, 16-week progressive training program using only bodyweight and resi
 - Checkbox tracking for mastery
 - Suggested training splits for each phase
 
-## Run locally
-
-```bash
-npm install
-npm run dev
-```
-
-## Deploy to GitHub Pages
-
-1. Push this repo to GitHub
-2. Install gh-pages: `npm install --save-dev gh-pages`
-3. Add to `package.json` scripts:
-   ```json
-   "deploy": "vite build && gh-pages -d dist"
-   ```
-4. Run `npm run deploy`
-
-Or use **Vercel / Netlify** — just connect the repo and it auto-detects Vite.
 
 ## Tech
 - React 18
